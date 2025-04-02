@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@800&family=Oswald:wght@700&family=Roboto+Condensed:wght@400;700&family=Open+Sans&display=swap">
+    <title>Examén Final CSS</title>
+</head>
+
+<body>
+    <div class="container"><!--Contenedor Padre-->
+        <header> <!--Cabecera de Layout-->
+            <h1>Zen Armony - Armoniza Tu Cuerpo, Sana Tu Alma</h1>
+        </header>
+        <nav aria-label="Filtrar por categoría"> <!--Navegador o barra lateral Layout-->
+            <h3>Terapías</h3>
+            <br>
+            
+            <ul class="sin-viñetas">
+                <li>Acupuntura</li>
+                <li>Fitoterapia China</li>
+                <li>Moxibustión</li>
+                <li>Ventosas</li>
+                <li>Dietoterapia China</li>
+                <li>Qi Gong y Tai Chi</li>
+                <li>Teoría del Yin-Yang y los Cinco Elementos</li>
+                <li>Diagnóstico en Medicina China</li>
+                <li>Auriculoterapia </li>
+            </ul>
+        </nav>
+        <main> <!--Contenedor Principal de Contenido-->
+            <section class="grillaMedicinaChina"><!--Contenedor de Cards Motocicletas-->
+                <!--Card 1-->
+                <article class="cardTerapia">
+                    <figure class="imagenTerapias">
+                        <img src="Assets/img/acupuntura.avif" alt="">
+                    </figure>
+                    <br>
+                    <div class="infoTerapias">
+                        <h2>Acupuntura</h2>
+                        <br>
+                        <p>Inserción de agujas finas en puntos específicos del cuerpo para equilibrar el flujo de
+                            energía.</p>
+                        <p class="precioTerapia">Sesión en Oficina: $25.000 <br> Sesión a Domicilio: $40.000</p>
+                    </div>
+                    <button class="botonTerapia">Cotizar</button>
+                </article>
+                <!--Card 2-->
+                <article class="cardTerapia">
+                    <figure class="imagenTerapias">
+                        <img src="Assets/img/fitoterapia china.jpg" alt="">
+                    </figure>
+                    <br>
+                    <div class="infoTerapias">
+                        <h2>Fitoterapia China</h2>
+                        <br>
+                        <p>Uso de hierbas medicinales para tratar desequilibrios energéticos y enfermedades.
+                        </p>
+                        <p class="precioTerapia">Sesión en Oficina: $25.000 <br> Sesión a Domicilio: $40.000</p>
+
+                    </div>
+                    <button class="botonTerapia">Cotizar</button>
+
+                </article>
+                <!--Card 3-->
+                <article class="cardTerapia">
+                    <figure class="imagenTerapias">
+                        <img src="Assets/img/moxibustion.jpg" alt="">
+                    </figure>
+                    <br>
+                    <div class="infoTerapias">
+                        <h2>Moxibustión</h2>
+                        <br>
+                        <p>Aplicación de calor en puntos de acupuntura mediante la combustión de la planta Artemisa.</p>
+                        <p class="precioTerapia">Sesión en Oficina: $25.000 <br> Sesión a Domicilio: $40.000</p>
+
+                    </div>
+                    <button class="botonTerapia">Cotizar</button>
+                </article>
+                <!--Card 4-->
+                <article class="cardTerapia">
+                    <figure class="imagenTerapias">
+                        <img src="Assets/img/masajetuina.jpg" alt="">
+                    </figure>
+                    <br>
+                    <div class="infoTerapias">
+                        <h2>Masaje Tui Na</h2>
+                        <br>
+                        <p>Técnica de masaje terapéutico que busca equilibrar el flujo de energía en el cuerpo.</p>
+                        <p class="precioTerapia">Sesión en Oficina: $25.000 <br> Sesión a Domicilio: $40.000</p>
+                    </div>
+                    <button class="botonTerapia">Cotizar</button>
+                </article>
+                <!--Card 5-->
+                <article class="cardTerapia">
+                    <figure class="imagenTerapias">
+                        <img src="Assets/img/ventosas.avif" alt="">
+                    </figure>
+                    <br>
+                    <div class="infoTerapias">
+                        <h2>Ventosas (Terapia de Cupping)
+                        </h2>
+                        <br>
+                        <p>Uso de ventosas para mejorar la circulación y aliviar tensiones musculares.</p>
+                        <p class="precioTerapia">Sesión en Oficina: $25.000 <br> Sesión a Domicilio: $40.000</p>
+                    </div>
+                    <button class="botonTerapia">Cotizar</button>
+                </article>
+                <!--Card 6-->
+                <article class="cardTerapia">
+                    <figure class="imagenTerapias">
+                        <img src="Assets/img/dietoterapia.png" alt="">
+                    </figure>
+                    <br>
+                    <div class="infoTerapias">
+                        <h2>Dietoterapia China</h2>
+                        <br>
+                        <p>Planificación de la alimentación basada en los principios del Yin-Yang y los cinco elementos.
+                        </p>
+                        <p class="precioTerapia">Sesión en Oficina: $25.000 <br> Sesión a Domicilio: $40.000</p>
+                    </div>
+                    <button class="botonTerapia">Cotizar</button>
+                </article>
+                <!--Card 7-->
+                <article class="cardTerapia">
+                    <figure class="imagenTerapias">
+                        <img src="Assets/img/qisong.webp" alt="">
+                    </figure>
+                    <br>
+                    <div class="infoTerapias">
+                        <h2>Qi Gong y Tai Chi</h2>
+                        <br>
+                        <p>Prácticas que combinan movimientos suaves, respiración y meditación para mejorar la salud.
+                        </p>
+                        <p class="precioTerapia">Sesión en Oficina: $25.000 <br> Sesión a Domicilio: $40.000</p>
+
+                    </div>
+                    <button class="botonTerapia">Cotizar</button>
+                </article>
+                <!--Card 8-->
+                <article class="cardTerapia">
+                    <figure class="imagenTerapias">
+                        <img src="Assets/img/auriculoterapia.jpg" alt="">
+                    </figure>
+                    <br>
+                    <div class="infoTerapias">
+                        <h2>Auriculoterapia</h2>
+                        <br>
+                        <p>Estimulación de puntos específicos en la oreja para tratar diversas condiciones.</p>
+                        <p class="precioTerapia">Sesión en Oficina: $25.000 <br> Sesión a Domicilio: $40.000</p>
+                    </div>
+                    <button class="botonTerapia">Cotizar</button>
+                </article>
+
+            </section>
+            <div class="paginacion-container">
+                <br>
+                <p class="paginacionInfo">Mostrando productos 1-8 de 50</p>
+                <div class="container-paginacion">
+                    <a href="#" class="flecha-paginacion disabled">&laquo;</a>
+                    <a href="#" class="numero-pagina activa">1</a>
+                    <a href="#" class="numero-pagina">2</a>
+                    <a href="#" class="numero-pagina">3</a>
+                    <a href="#" class="numero-pagina">4</a>
+                    <a href="#" class="numero-pagina">5</a>
+                    <a href="#" class="flecha-paginacion">&raquo;</a>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <div>
+                <a href="https://wa.me/56926406253">
+                    <span class="mdi mdi-whatsapp mdi-grande"></span>
+                </a>
+                <a href="https://www.instagram.com/camilalarulos?igsh=cHRmcnMxZW00cTE4">
+                    <span class="mdi mdi-instagram mdi-grande"></span>
+                </a>
+            </div>
+            <br>
+            <div class="footer"><strong>Todos los Derechos Reservados © Zen Armony</strong></div>
+        </footer>
+    </div>
+</body>
+
+</html>
