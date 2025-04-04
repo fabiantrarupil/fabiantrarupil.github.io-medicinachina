@@ -29,7 +29,7 @@ body {
 header {
     grid-area: header;
     background-color: #A52A2A;
-    color: #FFFFFF;
+    color: #4B8F8C;
     text-align: center;
     display: flex;
     align-content: center;
@@ -39,7 +39,7 @@ header {
 
 h1, h2{
     font-family: 'bebas Neue', sans-serif;
-    color: #A52A2A  ;
+    color: #2C6676    ;
 }
 
 nav {
@@ -128,8 +128,8 @@ h2{
 
 .precioTerapia {
     font-weight: bold;
-    color: #F39C12;
-    font-size: 1.2rem;
+    color: #2C5746;
+    font-size: 1rem;
     margin: 0.5rem 0;
     text-align: center;
 }
