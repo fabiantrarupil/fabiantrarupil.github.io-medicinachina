@@ -37,9 +37,22 @@ header {
     padding: 1rem;
 }
 
-h1, h2{
+h3 {
     font-family: 'bebas Neue', sans-serif;
-    color: #2C6676    ;
+    color: #2C6676;
+}
+h1{
+    font-family: 'Noto Sans', sans-serif;
+    color: #FFFFFF;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+h2{
+    color: #F5E9D0;
 }
 
 nav {
@@ -61,7 +74,7 @@ ul.sin-viñetas {
     gap: 1rem;
 }
 
-.centroCombobox{
+.centroCombobox {
     text-align: center;
 }
 
@@ -75,12 +88,22 @@ main {
     flex-direction: column;
 }
 
-h3, .precioTerapias{
+.imgTransicion {
+    transition: filter 0.3s ease-in-out;
+}
+
+.imgTransicion:hover {
+    filter: saturate(200%);
+}
+
+h3,
+.precioTerapias {
     font-family: 'Oswald', sans-serif;
 }
 
-p, body{
-    font-family: 'Roboto Condensed', sans-serif;
+p,
+body {
+    font-family: 'Lora', serif;
 }
 
 .grillaMedicinaChina {
@@ -103,7 +126,7 @@ p, body{
 
 .cardTerapias:hover {
     transform: translate(-5px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0,1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0, 1);
 }
 
 .imagenTerapias img {
@@ -112,7 +135,7 @@ p, body{
     object-fit: cover;
 }
 
-h2{
+h2 {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -142,6 +165,11 @@ h2{
     width: 100%;
     cursor: pointer;
     border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.botonTerapia:hover{
+    background-color: #8B1A1A;
 }
 
 /* Contenedor principal */
@@ -158,7 +186,7 @@ h2{
     margin-bottom: 1rem;
 }
 
-.container-paginacion{
+.container-paginacion {
     display: flex;
     flex-direction: row;
     justify-content: center;
