@@ -158,7 +158,7 @@ h2 {
 }
 
 .botonTerapia {
-    background-color: #4B8F8C;
+    background-color: #E63946;
     color: #FFFFFF;
     border: none;
     padding: 0.5rem 1rem;
@@ -169,7 +169,7 @@ h2 {
 }
 
 .botonTerapia:hover{
-    background-color: #8B1A1A;
+    background-color: blue;
 }
 
 /* Contenedor principal */
